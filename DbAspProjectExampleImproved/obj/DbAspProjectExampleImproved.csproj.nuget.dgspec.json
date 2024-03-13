@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CherepNick\\Step\\ASP\\examples\\PV225\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj": {}
+    "D:\\Github\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj": {}
   },
   "projects": {
-    "D:\\CherepNick\\Step\\ASP\\examples\\PV225\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj": {
+    "D:\\Github\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CherepNick\\Step\\ASP\\examples\\PV225\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj",
+        "projectUniqueName": "D:\\Github\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj",
         "projectName": "DbAspProjectExampleImproved",
-        "projectPath": "D:\\CherepNick\\Step\\ASP\\examples\\PV225\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj",
-        "packagesPath": "C:\\Users\\cooln\\.nuget\\packages\\",
-        "outputPath": "D:\\CherepNick\\Step\\ASP\\examples\\PV225\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\obj\\",
+        "projectPath": "D:\\Github\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj",
+        "packagesPath": "C:\\Users\\Fishman_1\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\DevKit\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cooln\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fishman_1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
