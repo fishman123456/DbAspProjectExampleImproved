@@ -1,0 +1,35 @@
+Codeshare logo
+ ShareSign UpLog In
+Apologies we're having trouble with your connection. Reconnecting...
+1
+// ЗАДАНИЕ:
+2
+// 1. Развернуть проект (скачать, открыть, применить миграции, выполнить запросы)
+3
+//  1.1) Скачать, открыть
+4
+//  1.2) Поправить строку подключения в appsettings.json на свой сервер БД
+5
+//  1.3) Запустить проект и протестировать API
+6
+// 2. Добавить работу с еще одной сущностью - Товар (Product), поля: id, title: string, description: string, price: decimal, quantity: int
+7
+//  2.1) Добавить сущность Entity.Product
+8
+//  2.2) Добавить интерфейс сервиса Service.IProductService
+9
+//  2.3) Добавить DbSet<Product> в ApplicationDbContext, создать новую миграцию Add-Migration AddProduct ; применить миграцию Update-Database ; проверить БД
+10
+//  2.4) Добавить имплементацию Storage.RdbProductService и реализовать методы
+11
+//  2.5) Добавить контроллер Controller.ProductController и реализовать обработчики
+12
+// 3. Протестировать работу с новой сущностью (API)
+13
+// 4. Реализовать диаграмму классов
+
+
+JOBS
+
+
+Hide Ads

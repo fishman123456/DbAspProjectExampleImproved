@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DbAspProjectExampleImproved.props" />
+</Project>
