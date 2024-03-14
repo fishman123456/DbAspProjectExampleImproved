@@ -4,7 +4,8 @@
 ## Диаграмма классов
 ![image](https://github.com/fishman123456/DbAspProjectExampleImproved/assets/106389581/9e45acdb-d7fd-4eb6-a4fb-4b43fce4cd04)
 ##
-![image](https://github.com/fishman123456/DbAspProjectExampleImproved/assets/106389581/20beef4b-71c2-4eb1-a2dd-6443bf01b576)
+![image](https://github.com/fishman123456/DbAspProjectExampleImproved/assets/106389581/6abb7a4c-87f6-4bcf-aa20-5db2772dae74)
+
 
 
 
