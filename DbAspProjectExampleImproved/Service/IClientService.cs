@@ -20,4 +20,6 @@ namespace DbAspProjectExampleImproved.Service
         // редактировать клиента по id
         Task<Client?> UpdateById(int id, Client client);
     }
+
+   
 }

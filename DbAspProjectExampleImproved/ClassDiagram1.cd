@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DbAspProjectExampleImproved.Controller.BasicApiMessages">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\BasicApiMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Controller.ClientController">
+    <Position X="7.5" Y="6" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAEAACAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Controller\ClientController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Controller.MainController">
+    <Position X="1" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controller\MainController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Controller.ProductController">
+    <Position X="7.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Controller\ProductController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Entity.Client">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Entity\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Entity.Product">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAQAAAAAAEIAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.Migrations.Init">
+    <Position X="1" Y="9.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Storage\Migrations\20240313165109_Init.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.Migrations.AddProduct">
+    <Position X="1" Y="7.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Storage\Migrations\20240314035944_AddProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.Migrations.ApplicationDbContextModelSnapshot">
+    <Position X="1" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Storage\Migrations\ApplicationDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.ApplicationDbContext">
+    <Position X="1" Y="5.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Storage\ApplicationDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.RdbClientService" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="6" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Storage\RdbClientService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DbAspProjectExampleImproved.Storage.RdbProductService" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Storage\RdbProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="DbAspProjectExampleImproved.Service.IClientService">
+    <Position X="15.25" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Service\IClientService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DbAspProjectExampleImproved.Service.IProductService">
+    <Position X="15.25" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
+      <FileName>Service\IProductService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

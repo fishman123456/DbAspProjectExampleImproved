@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();                                  // добавление классов контроллеров в IoC-контейнер
 builder.Services.AddDbContext<ApplicationDbContext>();              // добавим DbContext
 builder.Services.AddTransient<IClientService, RdbClientService>();  // добавим сервис для работы с клиентам в IoC-контейнер
+builder.Services.AddTransient<IProductService, RdbProductService>();  // добавим сервис для работы с клиентам в IoC-контейнер
 
 var app = builder.Build();
 
