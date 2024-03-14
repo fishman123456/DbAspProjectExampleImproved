@@ -1,77 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="DbAspProjectExampleImproved.Controller.BasicApiMessages">
-    <Position X="1" Y="2.25" Width="1.5" />
+    <Position X="12.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Controller\BasicApiMessages.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.ClientController">
-    <Position X="7.5" Y="6" Width="3.25" />
+    <Position X="21.25" Y="13.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAACAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Controller\ClientController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.MainController">
-    <Position X="1" Y="0.5" Width="2" />
+    <Position X="23.5" Y="10.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
       <FileName>Controller\MainController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.ProductController">
-    <Position X="7.5" Y="3.25" Width="3.5" />
+    <Position X="24.75" Y="13.75" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAQAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Controller\ProductController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Entity.Client">
-    <Position X="11.75" Y="0.5" Width="2.5" />
+    <Position X="22.75" Y="3.25" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAACAEAAACAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAg=</HashCode>
       <FileName>Entity\Client.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Entity.Product">
-    <Position X="9.25" Y="0.5" Width="2.25" />
+    <Position X="19" Y="3.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAADAAAAQAAAAAAEIAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>Entity\Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.Migrations.Init">
-    <Position X="1" Y="9.25" Width="3.5" />
+    <Position X="9" Y="17.5" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
       <FileName>Storage\Migrations\20240313165109_Init.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.Migrations.AddProduct">
-    <Position X="1" Y="7.25" Width="3.5" />
+    <Position X="9" Y="15" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
       <FileName>Storage\Migrations\20240314035944_AddProduct.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.Migrations.ApplicationDbContextModelSnapshot">
-    <Position X="1" Y="3.5" Width="3.25" />
+    <Position X="30.5" Y="12.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Storage\Migrations\ApplicationDbContextModelSnapshot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.ApplicationDbContext">
-    <Position X="1" Y="5.25" Width="4.25" />
+    <Position X="40.25" Y="18" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Storage\ApplicationDbContext.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.RdbClientService" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="6" Width="3.25" />
+    <Position X="15" Y="11" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAIAgAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Storage\RdbClientService.cs</FileName>
@@ -79,22 +79,43 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.RdbProductService" BaseTypeListCollapsed="true">
-    <Position X="11.5" Y="3.25" Width="3.5" />
+    <Position X="9" Y="11" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAIAgAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Storage\RdbProductService.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
+  <Class Name="System.Object">
+    <Position X="11.75" Y="6.5" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="23.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot">
+    <Position X="30.5" Y="10" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.DbContext">
+    <Position X="39.25" Y="4.5" Width="6.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.Migrations.Migration">
+    <Position X="14.75" Y="15" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
   <Interface Name="DbAspProjectExampleImproved.Service.IClientService">
-    <Position X="15.25" Y="5.25" Width="3.25" />
+    <Position X="32.25" Y="3.5" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Service\IClientService.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DbAspProjectExampleImproved.Service.IProductService">
-    <Position X="15.25" Y="3.25" Width="3.5" />
+    <Position X="27.5" Y="3.5" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Service\IProductService.cs</FileName>
