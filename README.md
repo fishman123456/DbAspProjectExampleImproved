@@ -11,4 +11,5 @@
 
 
 
+![Диаграма классовФИшман](https://github.com/fishman123456/DbAspProjectExampleImproved/assets/106389581/0ccfb3c0-e3c3-450d-8c13-36e3781d6274)
 
