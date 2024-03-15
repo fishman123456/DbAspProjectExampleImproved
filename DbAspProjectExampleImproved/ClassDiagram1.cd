@@ -8,21 +8,21 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.ClientController">
-    <Position X="21.25" Y="13.75" Width="3.25" />
+    <Position X="29.75" Y="13.25" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAACAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Controller\ClientController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.MainController">
-    <Position X="23.5" Y="10.5" Width="2" />
+    <Position X="32" Y="10" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
       <FileName>Controller\MainController.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Controller.ProductController">
-    <Position X="24.75" Y="13.75" Width="3.5" />
+    <Position X="33.25" Y="13.25" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAQAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Controller\ProductController.cs</FileName>
@@ -57,14 +57,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.Migrations.ApplicationDbContextModelSnapshot">
-    <Position X="30.5" Y="12.75" Width="3.25" />
+    <Position X="44.5" Y="15.5" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Storage\Migrations\ApplicationDbContextModelSnapshot.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DbAspProjectExampleImproved.Storage.ApplicationDbContext">
-    <Position X="40.25" Y="18" Width="4.25" />
+    <Position X="54.25" Y="20.75" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Storage\ApplicationDbContext.cs</FileName>
@@ -91,15 +91,15 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
-    <Position X="23.75" Y="12.5" Width="1.5" />
+    <Position X="32.25" Y="12" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot">
-    <Position X="30.5" Y="10" Width="3.25" />
+    <Position X="44.5" Y="12.75" Width="3.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Microsoft.EntityFrameworkCore.DbContext">
-    <Position X="39.25" Y="4.5" Width="6.25" />
+    <Position X="53.25" Y="7.25" Width="6.25" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
@@ -108,14 +108,14 @@
     <TypeIdentifier />
   </Class>
   <Interface Name="DbAspProjectExampleImproved.Service.IClientService">
-    <Position X="32.25" Y="3.5" Width="3.25" />
+    <Position X="46.25" Y="6.25" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Service\IClientService.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DbAspProjectExampleImproved.Service.IProductService">
-    <Position X="27.5" Y="3.5" Width="3.5" />
+    <Position X="41.5" Y="6.25" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAIAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAACAAIA=</HashCode>
       <FileName>Service\IProductService.cs</FileName>
