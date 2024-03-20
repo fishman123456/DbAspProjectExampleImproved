@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DbAspProjectExampleImproved")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dd14c11f80a33db603a7af0a1002c69f5c232b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e04fa2dfb13035f759c4c99eef5fadac92b7dc2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DbAspProjectExampleImproved")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DbAspProjectExampleImproved")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

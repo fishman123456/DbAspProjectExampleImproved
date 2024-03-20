@@ -8,7 +8,7 @@ builder.Services.AddControllers();                                  // добавлени
 builder.Services.AddDbContext<ApplicationDbContext>();              // добавим DbContext
 builder.Services.AddTransient<IClientService, RdbClientService>();  // добавим сервис для работы с клиентам в IoC-контейнер
 builder.Services.AddTransient<IProductService, RdbProductService>();  // добавим сервис для работы с клиентам в IoC-контейнер
-
+builder.Services.AddTransient<ICategoryService, RdbCategoryService>();
 var app = builder.Build();
 
 // конфигурация приложения
