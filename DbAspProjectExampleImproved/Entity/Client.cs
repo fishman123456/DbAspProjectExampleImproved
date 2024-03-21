@@ -1,4 +1,6 @@
-﻿namespace DbAspProjectExampleImproved.Entity
+﻿using System.Text.Json.Serialization;
+
+namespace DbAspProjectExampleImproved.Entity
 {
     // Client - класс, опсиывающий сущность клиента магазина
     public class Client
@@ -7,8 +9,11 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public DateTime BirthDate { get ; set; }  
-        
+        public DateTime BirthDate { get ; set; }
+
+        // навигационные свойства
+        [JsonIgnore]
+        public ICollection<Order>? Orders { get; set; }
         public Client()
         {
             FirstName = string.Empty;
