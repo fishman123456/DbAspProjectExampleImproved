@@ -1,4 +1,6 @@
-﻿namespace DbAspProjectExampleImproved.Entity
+﻿using System.Text.Json.Serialization;
+
+namespace DbAspProjectExampleImproved.Entity
 {
     // Produ - класс, опсиывающий сущность клиента магазина
     public class Product
@@ -10,7 +12,9 @@
         public int quantity  { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-
+        // навигационные свойства
+        [JsonIgnore]
+        public ICollection<OrderProduct>? OrderProducts { get; set; }
         public Product()
         {
             title = string.Empty;

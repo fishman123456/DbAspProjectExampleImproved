@@ -4,6 +4,7 @@ using DbAspProjectExampleImproved.Storage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DbAspProjectExampleImproved.Storage.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240324063053_AddOrder")]
+    partial class AddOrder
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,20 +106,10 @@ namespace DbAspProjectExampleImproved.Storage.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("orderProducts");
                 });
@@ -164,21 +157,6 @@ namespace DbAspProjectExampleImproved.Storage.Migrations
                     b.Navigation("client");
                 });
 
-            modelBuilder.Entity("DbAspProjectExampleImproved.Entity.OrderProduct", b =>
-                {
-                    b.HasOne("DbAspProjectExampleImproved.Entity.Order", "Order")
-                        .WithMany("OrderProducts")
-                        .HasForeignKey("OrderId");
-
-                    b.HasOne("DbAspProjectExampleImproved.Entity.Product", "Product")
-                        .WithMany("OrderProducts")
-                        .HasForeignKey("ProductId");
-
-                    b.Navigation("Order");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("DbAspProjectExampleImproved.Entity.Product", b =>
                 {
                     b.HasOne("DbAspProjectExampleImproved.Entity.Category", "Category")
@@ -198,16 +176,6 @@ namespace DbAspProjectExampleImproved.Storage.Migrations
             modelBuilder.Entity("DbAspProjectExampleImproved.Entity.Client", b =>
                 {
                     b.Navigation("Orders");
-                });
-
-            modelBuilder.Entity("DbAspProjectExampleImproved.Entity.Order", b =>
-                {
-                    b.Navigation("OrderProducts");
-                });
-
-            modelBuilder.Entity("DbAspProjectExampleImproved.Entity.Product", b =>
-                {
-                    b.Navigation("OrderProducts");
                 });
 #pragma warning restore 612, 618
         }

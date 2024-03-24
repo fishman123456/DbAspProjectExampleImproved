@@ -1,4 +1,6 @@
-﻿namespace DbAspProjectExampleImproved.Entity
+﻿using System.Text.Json.Serialization;
+
+namespace DbAspProjectExampleImproved.Entity
 {
     public class Order
     {
@@ -6,6 +8,10 @@
         public string Description { get; set; }
         public DateTime CreatationDate { get; set; }
         public bool IsCompleted { get; set; }
+        public Client client { get; set; }
+        // навигационные свойства
+        [JsonIgnore]
+        public ICollection<OrderProduct>? OrderProducts { get; set; }
         public Order()
         {
             Description = string.Empty;
