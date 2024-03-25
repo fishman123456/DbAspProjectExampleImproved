@@ -2,7 +2,7 @@
 
 namespace DbAspProjectExampleImproved.Service
 {
-    public interface IOrderProduct
+    public interface IOrderProductService
     {
         // добавить многие ко многим ЗаказПродукт
         Task<OrderProduct ?> Add(OrderProduct orderProduct);

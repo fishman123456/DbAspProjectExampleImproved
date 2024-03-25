@@ -1,33 +1,54 @@
 ﻿using DbAspProjectExampleImproved.Entity;
 using DbAspProjectExampleImproved.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace DbAspProjectExampleImproved.Storage
 {
-    public class RdbOrderProductService : IOrderProduct
+    public class RdbOrderProductService : IOrderProductService
     {
-        public Task<OrderProduct?> Add(OrderProduct orderProduct)
+        private readonly ApplicationDbContext _db;
+        public RdbOrderProductService(ApplicationDbContext db)
         {
-            throw new NotImplementedException();
+            _db = db;
+        }
+        public async Task<OrderProduct?> Add(OrderProduct orderProduct)
+        {
+            _db.orderProducts.Add(orderProduct);
+            await _db.SaveChangesAsync();
+            return orderProduct;
         }
 
-        public Task<OrderProduct?> GetById(int id)
+        public async Task<OrderProduct?> GetById(int id)
         {
-            throw new NotImplementedException();
+            return await _db.orderProducts.FirstOrDefaultAsync(OrderProduct => OrderProduct.Id == id);
         }
 
-        public Task<List<OrderProduct>> ListAll()
+        public async Task<List<OrderProduct>> ListAll()
         {
-            throw new NotImplementedException();
+            return await _db.orderProducts.ToListAsync();
         }
 
-        public Task<OrderProduct?> RemoveById(int id)
+        public async Task<OrderProduct?> RemoveById(int id)
         {
-            throw new NotImplementedException();
+            OrderProduct? removed = await _db.orderProducts.FirstOrDefaultAsync(OrderProduct => OrderProduct.Id == id);
+            if (removed != null)
+            {
+                _db.orderProducts.Remove(removed);
+                await _db.SaveChangesAsync();
+            }
+            return removed;
         }
 
-        public Task<OrderProduct?> UpdateById(int id, OrderProduct orderProduct)
+        public async Task<OrderProduct?> UpdateById(int id, OrderProduct orderProduct)
         {
-            throw new NotImplementedException();
+
+            OrderProduct? updated = await _db.orderProducts.FirstOrDefaultAsync(OrderProduct => orderProduct.Id == id);
+            if (updated != null)
+            {
+                updated.Quantity = orderProduct.Quantity;
+                await _db.SaveChangesAsync();
+            }
+            return updated;
         }
     }
 }

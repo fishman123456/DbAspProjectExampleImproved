@@ -23,3 +23,16 @@ namespace DbAspProjectExampleImproved.Entity
         }
     }
 }
+
+
+//{
+//    "Description":"товар на ура",
+//    "IsCompleted": false,
+//    "CreatationDate": "2023-11-02",
+//    "Client": {
+//        "FirstName":"dens",
+//        "LastName":"Lada",
+//        "Email":"l@ya.ru",
+//        "birthDate": "2020-01-02"
+//    }
+//}
