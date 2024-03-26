@@ -39,6 +39,9 @@ namespace DbAspProjectExampleImproved.Controller
         }
 
         [HttpPost]
+
+        //old version
+        #region
         public async Task<Client?> Add(Client client)
         {
             Client? result = await _clientService.Add(client);
@@ -48,6 +51,7 @@ namespace DbAspProjectExampleImproved.Controller
             }
             return result;
         }
+        #endregion
 
         [HttpDelete("{id:int}")]
         public async Task<Client?> RemoveById(int id)

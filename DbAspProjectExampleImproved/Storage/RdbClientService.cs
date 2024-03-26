@@ -14,11 +14,18 @@ namespace DbAspProjectExampleImproved.Storage
             _db = db;
         }
 
+        // добавление клиента с проверкой достижения возраста 18 лет
         public async Task<Client?> Add(Client client)
         {
-            _db.Clients.Add(client);
-            await _db.SaveChangesAsync();
-            return client;
+            var emails = _db.Clients.Any(client => client.Email == client.Email);
+            DateTime birthDate = client.BirthDate;
+            if (!emails && birthDate < DateTime.Now.AddYears(-18))
+            {
+                _db.Clients.Add(client);
+                await _db.SaveChangesAsync();
+                return client;
+            }
+            return null;
         }
 
         public async Task<Client?> GetById(int id)

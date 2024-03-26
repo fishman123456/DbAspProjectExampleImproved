@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\entity\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\entity\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\storage\\rdbclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\storage\\rdbclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\controller\\orderproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\controller\\orderproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\service\\iorderproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\service\\iorderproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\controller\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|solutionrelative:dbaspprojectexampleimproved\\controller\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{396F9D5D-E345-4E77-A689-FE2AE3AC5AA9}|DbAspProjectExampleImproved\\DbAspProjectExampleImproved.csproj|c:\\users\\fishman\\documents\\github\\dbaspprojectexampleimproved\\dbaspprojectexampleimproved\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 253,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,75 +69,38 @@
               "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RdbClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Storage\\RdbClientService.cs",
+              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Storage\\RdbClientService.cs",
+              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Storage\\RdbClientService.cs",
+              "RelativeToolTip": "DbAspProjectExampleImproved\\Storage\\RdbClientService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T05:06:10.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\ClientController.cs",
+              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Controller\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\ClientController.cs",
+              "RelativeToolTip": "DbAspProjectExampleImproved\\Controller\\ClientController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T04:59:06.347Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\OrderProductController.cs",
-              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Controller\\OrderProductController.cs",
-              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\OrderProductController.cs",
-              "RelativeToolTip": "DbAspProjectExampleImproved\\Controller\\OrderProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T10:25:40.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderProduct.cs",
-              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Entity\\OrderProduct.cs",
-              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Entity\\OrderProduct.cs",
-              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Entity\\OrderProduct.cs",
-              "RelativeToolTip": "DbAspProjectExampleImproved\\Entity\\OrderProduct.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T10:00:59.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IOrderProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Service\\IOrderProductService.cs",
-              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Service\\IOrderProductService.cs",
-              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Service\\IOrderProductService.cs",
-              "RelativeToolTip": "DbAspProjectExampleImproved\\Service\\IOrderProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T09:52:38.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\ProductController.cs",
-              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Controller\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\ProductController.cs",
-              "RelativeToolTip": "DbAspProjectExampleImproved\\Controller\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T09:49:23.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Entity\\Product.cs",
-              "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Entity\\Product.cs",
-              "ToolTip": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Entity\\Product.cs",
-              "RelativeToolTip": "DbAspProjectExampleImproved\\Entity\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T09:42:24.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Controller\\MainController.cs",
               "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Controller\\MainController.cs",
@@ -161,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fishman\\Documents\\GitHub\\DbAspProjectExampleImproved\\DbAspProjectExampleImproved\\Program.cs",
               "RelativeDocumentMoniker": "DbAspProjectExampleImproved\\Program.cs",
